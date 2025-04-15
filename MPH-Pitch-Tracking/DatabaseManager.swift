@@ -135,7 +135,7 @@ class DatabaseManager {
                 "\(pitch["pitchType"] ?? "")",
                 "\(pitch["pitchResult"] ?? "")",
                 "\(pitch["valueA"] ?? "")",
-                "\(pitch["tppValue"] != nil ? String(format: "%.2f", pitch["ttpValue"] as! Double) : "")",
+                "\(pitch["ttpValue"] != nil ? String(format: "%.2f", pitch["ttpValue"] as! Double) : "")",
                 "\(pitch["fps"] as? Bool == true ? "Yes" : "No")",
                 "\(pitch["f2ps"] as? Bool == true ? "Yes" : "No")",
                 "\(pitch["csoop"] as? Bool == true ? "Yes" : "No")",

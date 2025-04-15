@@ -116,13 +116,13 @@ struct PitchHistoryView: View {
                 .foregroundColor(customYellow.opacity(0.8))
             
             if let valueA = pitch["valueA"] as? Int {
-                Text("Value A: \(valueA)")
+                Text("MPH: \(valueA)")
                     .font(.subheadline)
                     .foregroundColor(customYellow)
             }
             
-            if let ttpValue = pitch["ttpValue"] as? Int {
-                Text("TTP: \(ttpValue)")
+            if let ttpValue = pitch["ttpValue"] as? Double {
+                Text("TTP: \(String(format: "%.2f", ttpValue))")
                     .font(.subheadline)
                     .foregroundColor(customYellow)
             }
