@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct MPH_Pitch_TrackingApp: App {
+struct PitchTrackingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainAppView()
         }
     }
 }
